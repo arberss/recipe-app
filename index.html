@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="search">
+          <input
+            class="search-inp"
+            id="search"
+            type="text"
+            placeholder="Search"
+          />
+          <span class="search-icon"><i class="fa fa-search"></i></span>
+        </div>
+        <div class="fav-recipe">
+          <!-- <div class="single-rec">
+            <img src="testimg.jpg" alt="testimg" />
+            <p class="fav-title">Chicken</p>
+            <span class="remove"><i class="fa fa-times"></i></span>
+          </div> -->
+        </div>
+
+        <div class="recipe-content">
+          <div class="next">
+            <i class="fa fa-arrow-right"></i>
+          </div>
+          <div class="loader">Loading...</div>
+          <!-- <div class="recipe">
+            <img src="testimg.jpg" alt="test" />
+            <div class="recipe-footer">
+              <div class="recipe-title">Chocko</div>
+              <div class="recipe-like active">
+                <i class="fa fa-heart"></i>
+              </div>
+            </div>
+            <div class="recipe-oftheday">Recipe of the Day</div>
+          </div> -->
+        </div>
+
+        <div class="modal-container close">
+          <div class="meal-modal">
+            <div class="modal-close"><i class="fa fa-times"></i></div>
+            <div class="modal-title"></div>
+            <img class="modal-img" src="" alt="" />
+            <div class="modal-text"></div>
+            <ul class="modal-ing"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="App.js"></script>
+  </body>
+</html>
